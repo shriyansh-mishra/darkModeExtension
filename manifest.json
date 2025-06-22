@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Universal Dark Mode Toggle",
+    "description": "Toggle dark mode on any website",
+    "version": "1.0",
+    "permissions": ["scripting", "activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "darkmode.png",
+        "48": "darkmode.png",
+        "128": "darkmode.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["darkmode.css"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  

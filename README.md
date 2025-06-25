@@ -22,3 +22,4 @@ cd darkMode_extension
 - Or click the popup button for the same effect
 
 That's it! The extension will work on any website. 
+Made with ❤️ by Shriyansh
